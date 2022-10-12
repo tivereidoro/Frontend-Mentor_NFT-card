@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help me improve my coding skills by building realistic projects. 
 
 
 ## Table of contents
@@ -69,7 +69,7 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-I'll remain consistent with flexbox and grid templates until I master their use.
+I'll remain consistent with flexbox and css grid templates until I master their use.
 
 
 ## Author
@@ -79,5 +79,5 @@ I'll remain consistent with flexbox and grid templates until I master their use.
 - Twitter - [@tivereidoro](https://www.twitter.com/tivereidoro)
 - Frontend Mentor - [@tivereidoro](https://www.frontendmentor.io/profile/tivereidoro)
 
-###
-###
+##
+##
