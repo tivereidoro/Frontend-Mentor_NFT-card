@@ -28,13 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop View](./images/desktop-view.png)
+![Mobile View](./images/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Coming up shortly](https://your-solution-url.com)
-- Live Site URL: [Coming up shortly](https://your-live-site-url.com)
+- Code Challenge done: [Solution URL](https://www.frontendmentor.io/solutions/nft-card-preview-using-html-and-css-qe1lGOC0Zg)
+- Check it out: [Live Site URL](https://tivereidoro.github.io/Frontend-Mentor_NFT-card)
 
 
 ## My process
@@ -51,17 +52,25 @@ Users should be able to:
 ### What I learned
 
 code snippets,
+I learned how to add page icon when loaded in a browser.!!
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<link rel="icon" type="image/png" sizes="32x32" href="https://icon-url-here">
 ```
+
+I also learned how to set css variables.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line-clr: hsl(215, 32%, 27%);
 }
 ```
 ```js
-const proudOfThisFunc = () => {
+const Func = () => {
   console.log('🎉')
 }
 ```
