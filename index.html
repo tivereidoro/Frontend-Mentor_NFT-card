@@ -4,14 +4,22 @@
   <head>
     <meta charset="UTF-8">
     <!-- displays site properly based on user's device -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tivere IDORO"/>
+    <meta name="description" content="NFT preview card component" />
+    <meta name="keywords" content="frontend mentor,NFT preview card component"/>
+
+    <title>NFT Card #tivereidoro</title>
+    <!-- 👍 -->
+
     <!-- project page icon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- my css file -->
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    
-    <title>NFT previewCard by tivereidoro</title>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
   </head>
 
 
@@ -19,24 +27,34 @@
 
   <body>
 
-    Equilibrium #3429
+    <div class="container">
 
-    Our Equilibrium collection promotes balance and calm.
+      <div class="card">
+        
+        <div class="nft-image">
+          <img src="./images/image-equilibrium.jpg">
+        </div>
 
-    0.041 ETH
-    3 days left
-    
-    Creation of Jules Wyvern
+        <h1 class="card-title">Equilibrium #3429</h2>
+        <p class="card-desc">Our Equilibrium collection promotes balance and calm.</p>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="linkedin.com/in/tivereidoro">Tivere IDORO</a>.
+        <div class="eth-time">
+          <div class="eth"><img src="./images/icon-ethereum.svg" alt="ethereum">0.041 ETH</div>
+        
+          <div class="days-left"><img src="./images/icon-clock.svg" alt="clock">3 days left</div>
+        </div>
+
+        <div class="creator">
+          <img class="creator-avatar" src="./images/image-avatar.png" alt="creator-avatar">
+          <p class="creator-info">Creation of <span class="creator-name">Jules Wyvern</span></p>
+        </div>
+      </div>
+
+      <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="linkedin.com/in/tivereidoro">Tivere IDORO</a>.
+      </div>
     </div>
 
 
-
-
-
-    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./assets/main.js"></script>
   </body>
 </html>
