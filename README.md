@@ -29,7 +29,6 @@ Users should be able to:
 ### Screenshot
 
 ![desktop-view](https://user-images.githubusercontent.com/105525310/195964828-922715cd-420d-4ebf-aea8-925105f9f4dc.png)
-![mobile](https://user-images.githubusercontent.com/105525310/195964837-f7dc62cf-9f3f-4835-ac0c-88f7d3938a5c.png)
 
 
 ### Links
